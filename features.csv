@@ -1,0 +1,80 @@
+No.,Feature Name,Feature Description,Type,Nulls,Nulls_per,Zeros,Zeros_per
+1,MSSubClass,Identifies the type of dwelling involved in the sale.,Categorical,0,0%,0,0%
+2,MSZoning,Identifies the general zoning classification of the sale.,Categorical,0,0%,0,0%
+3,LotFrontage,Linear feet of street connected to property,Numeric,259,18%,0,0%
+4,LotArea,Lot size in square feet,Numeric,0,0%,0,0%
+5,Street,Type of road access to property,Categorical,0,0%,0,0%
+6,Alley,Type of alley access to property,Categorical,1369,94%,0,0%
+7,LotShape,General shape of property,Categorical,0,0%,0,0%
+8,LandContour,Flatness of the property,Categorical,0,0%,0,0%
+9,Utilities,Type of utilities available,Categorical,0,0%,0,0%
+10,LotConfig,Lot configuration,Categorical,0,0%,0,0%
+11,LandSlope,Slope of property,Categorical,0,0%,0,0%
+12,Neighborhood,Physical locations within Ames city limits,Categorical,0,0%,0,0%
+13,Condition1,Proximity to various conditions,Categorical,0,0%,0,0%
+14,Condition2,Proximity to various conditions (if more than one is present),Categorical,0,0%,0,0%
+15,BldgType,Type of dwelling,Categorical,0,0%,0,0%
+16,HouseStyle,Style of dwelling,Categorical,0,0%,0,0%
+17,OverallQual,Rates the overall material and finish of the house,Categorical,0,0%,0,0%
+18,OverallCond,Rates the overall condition of the house,Categorical,0,0%,0,0%
+19,YearBuilt,Original construction date,Datetime,0,0%,0,0%
+20,YearRemodAdd,Remodel date (same as construction date if no remodeling or additions),Datetime,0,0%,0,0%
+21,RoofStyle,Type of roof,Categorical,0,0%,0,0%
+22,RoofMatl,Roof material,Categorical,0,0%,0,0%
+23,Exterior1st,Exterior covering on house,Categorical,0,0%,0,0%
+24,Exterior2nd,Exterior covering on house (if more than one material),Categorical,0,0%,0,0%
+25,MasVnrType,Masonry veneer type,Categorical,8,1%,0,0%
+26,MasVnrArea,Masonry veneer area in square feet,Numeric,8,1%,861,59%
+27,ExterQual,Evaluates the quality of the material on the exterior,Categorical,0,0%,0,0%
+28,ExterCond,Evaluates the present condition of the material on the exterior,Categorical,0,0%,0,0%
+29,Foundation,Type of foundation,Categorical,0,0%,0,0%
+30,BsmtQual,Evaluates the height of the basement,Categorical,37,3%,0,0%
+31,BsmtCond,Evaluates the general condition of the basement,Categorical,37,3%,0,0%
+32,BsmtExposure,Refers to walkout or garden level walls,Categorical,38,3%,0,0%
+33,BsmtFinType1,Rating of basement finished area,Categorical,37,3%,0,0%
+34,BsmtFinSF1,Type 1 finished square feet,Numeric,0,0%,467,32%
+35,BsmtFinType2,Rating of basement finished area (if multiple types),Categorical,38,3%,0,0%
+36,BsmtFinSF2,Type 2 finished square feet,Numeric,0,0%,1293,89%
+37,BsmtUnfSF,Unfinished square feet of basement area,Numeric,0,0%,118,8%
+38,TotalBsmtSF,Total square feet of basement area,Numeric,0,0%,37,3%
+39,Heating,Type of heating,Categorical,0,0%,0,0%
+40,HeatingQC,Heating quality and condition,Categorical,0,0%,0,0%
+41,CentralAir,Central air conditioning,Categorical,0,0%,0,0%
+42,Electrical,Electrical system,Categorical,1,0%,0,0%
+43,1stFlrSF,First Floor square feet,Numeric,0,0%,0,0%
+44,2ndFlrSF,Second floor square feet,Numeric,0,0%,829,57%
+45,LowQualFinSF,Low quality finished square feet (all floors),Numeric,0,0%,1434,98%
+46,GrLivArea,Above grade (ground) living area square feet,Numeric,0,0%,0,0%
+47,BsmtFullBath,Basement full bathrooms,Numeric,0,0%,856,59%
+48,BsmtHalfBath,Basement half bathrooms,Numeric,0,0%,1378,94%
+49,FullBath,Full bathrooms above grade,Numeric,0,0%,9,1%
+50,HalfBath,Half baths above grade,Numeric,0,0%,913,63%
+51,BedroomAbvGr,Bedrooms above grade (does NOT include basement bedrooms),Numeric,0,0%,6,0%
+52,KitchenAbvGr,Kitchens above grade,Numeric,0,0%,1,0%
+53,KitchenQual,Kitchen quality,Categorical,0,0%,0,0%
+54,TotRmsAbvGrd,Total rooms above grade (does not include bathrooms),Numeric,0,0%,0,0%
+55,Functional,Home functionality (Assume typical unless deductions are warranted),Categorical,0,0%,0,0%
+56,Fireplaces,Number of fireplaces,Numeric,0,0%,690,47%
+57,FireplaceQu,Fireplace quality,Categorical,690,47%,0,0%
+58,GarageType,Garage location,Categorical,81,6%,0,0%
+59,GarageYrBlt,Year garage was built,Datetime,81,6%,0,0%
+60,GarageFinish,Interior finish of the garage,Categorical,81,6%,0,0%
+61,GarageCars,Size of garage in car capacity,Numeric,0,0%,81,6%
+62,GarageArea,Size of garage in square feet,Numeric,0,0%,81,6%
+63,GarageQual,Garage quality,Categorical,81,6%,0,0%
+64,GarageCond,Garage condition,Categorical,81,6%,0,0%
+65,PavedDrive,Paved driveway,Categorical,0,0%,0,0%
+66,WoodDeckSF,Wood deck area in square feet,Numeric,0,0%,761,52%
+67,OpenPorchSF,Open porch area in square feet,Numeric,0,0%,656,45%
+68,EnclosedPorch,Enclosed porch area in square feet,Numeric,0,0%,1252,86%
+69,3SsnPorch,Three season porch area in square feet,Numeric,0,0%,1436,98%
+70,ScreenPorch,Screen porch area in square feet,Numeric,0,0%,1344,92%
+71,PoolArea,Pool area in square feet,Numeric,0,0%,1453,100%
+72,PoolQC,Pool quality,Categorical,1453,100%,0,0%
+73,Fence,Fence quality,Categorical,1179,81%,0,0%
+74,MiscFeature,Miscellaneous feature not covered in other categories,Categorical,1406,96%,0,0%
+75,MiscVal,$Value of miscellaneous feature,Numeric,0,0%,1408,96%
+76,MoSold,Month Sold (MM),Datetime,0,0%,0,0%
+77,YrSold,Year Sold (YYYY),Datetime,0,0%,0,0%
+78,SaleType,Type of sale,Categorical,0,0%,0,0%
+79,SaleCondition,Condition of Sale,Categorical,0,0%,0,0%
